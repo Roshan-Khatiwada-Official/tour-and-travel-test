@@ -26,33 +26,32 @@ export default function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/packages" element={<Packages />} />
-        <Route path="/packages/:id" element={<PackageDetail />} />
-        <Route path="/destinations" element={<Destinations />} />
-        <Route path="/karnali" element={<Karnali />} />
-        <Route path="/booking" element={<Booking />} />
-        <Route path="/inquiry" element={<Inquiry />} />
+        {/* Reachable without an account — otherwise there'd be no way to
+            ever log in, and Terms/Privacy are meant to be readable before
+            signing up. Every other page requires login (see ProtectedRoute). */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route
-          path="/dashboard"
-          element={
-            <ProtectedRoute>
-              <Dashboard />
-            </ProtectedRoute>
-          }
-        />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:id" element={<BlogPost />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/faq" element={<FAQ />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<Terms />} />
-        <Route path="*" element={<NotFound />} />
+
+        <Route element={<ProtectedRoute />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/packages" element={<Packages />} />
+          <Route path="/packages/:id" element={<PackageDetail />} />
+          <Route path="/destinations" element={<Destinations />} />
+          <Route path="/karnali" element={<Karnali />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="/inquiry" element={<Inquiry />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogPost />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
       </Routes>
     </Layout>
   );

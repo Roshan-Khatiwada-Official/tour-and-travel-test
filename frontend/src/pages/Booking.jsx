@@ -133,12 +133,6 @@ export default function Booking() {
 
           {step === 0 && (
             <form className="form-grid" onSubmit={goToReview} noValidate>
-              {!user && (
-                <p className="full" style={{ fontSize: "13px", color: "#7b8aa3" }}>
-                  Booking as a guest — <Link to="/login" style={{ color: "var(--green-dark)", fontWeight: 700 }}>log in</Link> first if
-                  you'd like this booking to show up in your dashboard.
-                </p>
-              )}
               <div className={`field${fieldErrors.fullName ? " field-invalid" : ""}`}>
                 <label>Full Name</label>
                 <input type="text" value={form.fullName} onChange={update("fullName")} placeholder="Your name" />
@@ -246,7 +240,7 @@ export default function Booking() {
           {step === 3 && result && pkg && (
             <div className="booking-card">
               <div className="form-success" style={{ marginBottom: "20px" }}>
-                Booking received and saved! {user ? "You can track it from your dashboard. " : ""}Our team will be in
+                Booking received and saved! You can track it from your dashboard. Our team will be in
                 touch within 24 hours to confirm payment.
               </div>
               <div className="price-row"><span>Booking Ref</span><span>{result.booking.bookingRef}</span></div>
@@ -256,8 +250,8 @@ export default function Booking() {
               <div className="price-row"><span>Amount (est.)</span><span>NPR {total.toLocaleString()}</span></div>
               <div className="price-row"><span>Payment Method</span><span>{PAYMENT_METHODS.find((m) => m.id === method)?.label}</span></div>
               <div className="price-row total"><span>Payment Status</span><span>Pending Confirmation</span></div>
-              <Link to={user ? "/dashboard" : "/"} className="btn btn-outline-navy" style={{ width: "100%", marginTop: "18px" }}>
-                {user ? "Go to My Profile" : "Back to Home"}
+              <Link to="/dashboard" className="btn btn-outline-navy" style={{ width: "100%", marginTop: "18px" }}>
+                Go to My Profile
               </Link>
             </div>
           )}
