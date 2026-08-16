@@ -4,6 +4,7 @@ dist
 *.log
 .env
 .env.local
+.vercel
 
 # Runtime "database" files — regenerated at runtime (readCollection returns
 # [] for a missing file), and they'd otherwise carry real signup/booking/
