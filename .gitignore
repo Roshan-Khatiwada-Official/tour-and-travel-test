@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env
+.env.local
+
+# Runtime "database" files — regenerated at runtime (readCollection returns
+# [] for a missing file), and they'd otherwise carry real signup/booking/
+# inquiry data into a public repo. Product catalog files (packages.json,
+# offers.json) are intentionally still tracked — that's seed content, not PII.
+backend/data/users.json
+backend/data/bookings.json
+backend/data/inquiries.json
+admin-backend/data/admins.json

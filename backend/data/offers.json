@@ -1,0 +1,38 @@
+[
+  {
+    "id": "offer-rara-lake-tour",
+    "packageId": "rara-lake-tour",
+    "discountPercent": 15,
+    "validUntil": "2026-09-30"
+  },
+  {
+    "id": "offer-chitwan-jungle-safari",
+    "packageId": "chitwan-jungle-safari",
+    "discountPercent": 20,
+    "validUntil": "2026-09-15"
+  },
+  {
+    "id": "offer-pokhara-city-lakes",
+    "packageId": "pokhara-city-lakes",
+    "discountPercent": 10,
+    "validUntil": "2026-10-31"
+  },
+  {
+    "id": "offer-jumla-cultural-tour",
+    "packageId": "jumla-cultural-tour",
+    "discountPercent": 12,
+    "validUntil": "2026-10-15"
+  },
+  {
+    "id": "719688f8-c865-4d04-957c-e2e6a6e29b46",
+    "packageId": "muktinath-tour",
+    "discountPercent": 10,
+    "validUntil": "2026-08-14"
+  },
+  {
+    "id": "6c9da521-5f5b-4eb4-a5c6-499566bc60d5",
+    "packageId": "jumla-cultural-tour",
+    "discountPercent": 2,
+    "validUntil": "2026-08-06"
+  }
+]

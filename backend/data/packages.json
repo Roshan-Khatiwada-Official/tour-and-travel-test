@@ -1,0 +1,646 @@
+[
+  {
+    "id": "rara-lake-tour",
+    "title": "Rara Lake Tour",
+    "category": "Trekking",
+    "loc": "Mugu, Karnali",
+    "days": 5,
+    "price": 24500,
+    "badge": "Best Seller",
+    "badgeClass": "badge-best",
+    "tags": [
+      "TAAN Verified",
+      "Small Group"
+    ],
+    "sky": "#3A9BDC",
+    "ground": "#0B2545",
+    "rating": 5,
+    "photo": "/images/packages/rara-lake-tour.jpg",
+    "summary": "Nepal's largest lake, ringed by pine forest and rarely-visited trails.",
+    "itinerary": [
+      {
+        "title": "Day 1 — Arrival in Nepalgunj",
+        "text": "Fly in, overnight briefing and gear check."
+      },
+      {
+        "title": "Day 2 — Fly to Talcha, trek to Murma",
+        "text": "Short scenic flight, gentle acclimatisation walk."
+      },
+      {
+        "title": "Day 3 — Murma to Rara Lake",
+        "text": "Trek through rhododendron forest to the lakeshore."
+      },
+      {
+        "title": "Day 4 — Rara Lake exploration",
+        "text": "Boat ride, lakeside villages, Rara National Park."
+      },
+      {
+        "title": "Day 5 — Return to Talcha, fly out",
+        "text": "Trek back and departure flight."
+      }
+    ],
+    "inclusions": [
+      "Domestic flights",
+      "TAAN-registered guide",
+      "Teahouse accommodation",
+      "All permits & park fees",
+      "Meals during trek"
+    ],
+    "exclusions": [
+      "International flights",
+      "Nepal visa",
+      "Travel insurance",
+      "Personal expenses",
+      "Tips for guide/porter"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 24500
+      },
+      {
+        "label": "Local taxes & permits",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "shey-phoksundo-trek",
+    "title": "Shey Phoksundo Trek",
+    "category": "Trekking",
+    "loc": "Dolpa, Karnali",
+    "days": 12,
+    "price": 65000,
+    "badge": "Popular",
+    "badgeClass": "badge-popular",
+    "tags": [
+      "High Altitude"
+    ],
+    "sky": "#2E7FBF",
+    "ground": "#14315C",
+    "rating": 5,
+    "photo": "/images/packages/shey-phoksundo-trek.jpg",
+    "summary": "A high-altitude journey to Nepal's deepest lake inside Shey Phoksundo National Park.",
+    "itinerary": [
+      {
+        "title": "Day 1-2 — Kathmandu to Juphal",
+        "text": "Fly to Juphal via Nepalgunj, trek to Dunai."
+      },
+      {
+        "title": "Day 3-5 — Dunai to Phoksundo Lake",
+        "text": "Trek through the national park to the turquoise lake."
+      },
+      {
+        "title": "Day 6-7 — Lake exploration & acclimatisation",
+        "text": "Rest day, monastery visit, side hikes."
+      },
+      {
+        "title": "Day 8-11 — Return trek",
+        "text": "Retrace route with alternate side trails."
+      },
+      {
+        "title": "Day 12 — Fly back to Kathmandu",
+        "text": "Departure via Nepalgunj."
+      }
+    ],
+    "inclusions": [
+      "Domestic flights",
+      "Experienced high-altitude guide",
+      "Teahouse/camping as needed",
+      "National park permits",
+      "All trek meals"
+    ],
+    "exclusions": [
+      "International flights",
+      "Nepal visa",
+      "Travel insurance",
+      "Personal gear",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 65000
+      },
+      {
+        "label": "National park permit",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "upper-dolpa-trek",
+    "title": "Upper Dolpa Trek",
+    "category": "Adventure",
+    "loc": "Dolpa, Karnali",
+    "days": 18,
+    "price": 95000,
+    "badge": "Adventurous",
+    "badgeClass": "badge-adv",
+    "tags": [
+      "High Altitude",
+      "Small Group"
+    ],
+    "sky": "#E8491D",
+    "ground": "#7A2E12",
+    "rating": 4,
+    "photo": "/images/packages/upper-dolpa-trek.jpg",
+    "summary": "A remote restricted-area trek through Tibetan-influenced villages and high passes.",
+    "itinerary": [
+      {
+        "title": "Day 1-3 — Kathmandu to Juphal to Dunai",
+        "text": "Flight and initial trekking days."
+      },
+      {
+        "title": "Day 4-9 — Into Upper Dolpa",
+        "text": "Cross high passes toward Shey Gompa."
+      },
+      {
+        "title": "Day 10-12 — Shey Gompa & Crystal Mountain",
+        "text": "Explore monasteries and high pastures."
+      },
+      {
+        "title": "Day 13-17 — Return trek",
+        "text": "Descend via alternate villages."
+      },
+      {
+        "title": "Day 18 — Fly to Kathmandu",
+        "text": "Departure via Nepalgunj."
+      }
+    ],
+    "inclusions": [
+      "Restricted area permit",
+      "Domestic flights",
+      "Guide, porters & camping crew",
+      "All trek meals",
+      "Camping equipment"
+    ],
+    "exclusions": [
+      "International flights",
+      "Nepal visa",
+      "Travel insurance",
+      "Personal gear",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 95000
+      },
+      {
+        "label": "Restricted area permit",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "muktinath-tour",
+    "title": "Muktinath Tour",
+    "category": "Pilgrimage",
+    "loc": "Mustang",
+    "days": 7,
+    "price": 28000,
+    "badge": "Cultural",
+    "badgeClass": "badge-cultural",
+    "tags": [
+      "TAAN Verified"
+    ],
+    "sky": "#5B6E93",
+    "ground": "#1D4079",
+    "rating": 5,
+    "photo": "/images/packages/muktinath-tour.jpg",
+    "summary": "A pilgrimage journey to the sacred Muktinath temple through the Mustang valley.",
+    "itinerary": [
+      {
+        "title": "Day 1 — Kathmandu to Pokhara",
+        "text": "Drive or fly, overnight in Pokhara."
+      },
+      {
+        "title": "Day 2 — Pokhara to Jomsom to Muktinath",
+        "text": "Scenic flight and drive to the temple."
+      },
+      {
+        "title": "Day 3 — Muktinath darshan",
+        "text": "Temple visit, monastery tour."
+      },
+      {
+        "title": "Day 4-6 — Mustang valley exploration",
+        "text": "Kagbeni, Marpha and apple orchards."
+      },
+      {
+        "title": "Day 7 — Return to Kathmandu",
+        "text": "Fly back via Pokhara."
+      }
+    ],
+    "inclusions": [
+      "Domestic flights",
+      "Government-licensed guide",
+      "Hotel accommodation",
+      "All permits",
+      "Breakfast daily"
+    ],
+    "exclusions": [
+      "International flights",
+      "Nepal visa",
+      "Lunch & dinner",
+      "Travel insurance",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 28000
+      },
+      {
+        "label": "Local permits",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "everest-base-camp-trek",
+    "title": "Everest Base Camp Trek",
+    "category": "Trekking",
+    "loc": "Solukhumbu",
+    "days": 14,
+    "price": 110000,
+    "badge": "Best Seller",
+    "badgeClass": "badge-best",
+    "tags": [
+      "High Altitude",
+      "Small Group"
+    ],
+    "sky": "#2563EB",
+    "ground": "#0B2545",
+    "rating": 5,
+    "photo": "/images/packages/everest-base-camp-trek.jpg",
+    "summary": "The classic trek to the foot of the world's highest mountain via Namche and Kala Patthar.",
+    "itinerary": [
+      {
+        "title": "Day 1-2 — Fly to Lukla, trek to Phakding/Namche",
+        "text": "Begin trek, first acclimatisation stop."
+      },
+      {
+        "title": "Day 3-4 — Namche acclimatisation",
+        "text": "Rest day, Everest View Hotel side hike."
+      },
+      {
+        "title": "Day 5-8 — Tengboche to Base Camp",
+        "text": "Trek through Dingboche, Lobuche to Base Camp."
+      },
+      {
+        "title": "Day 9 — Kala Patthar sunrise",
+        "text": "Best Everest viewpoint on the route."
+      },
+      {
+        "title": "Day 10-13 — Descend to Lukla",
+        "text": "Return trek at a comfortable pace."
+      },
+      {
+        "title": "Day 14 — Fly to Kathmandu",
+        "text": "Departure flight from Lukla."
+      }
+    ],
+    "inclusions": [
+      "Lukla flights",
+      "Government-licensed guide & porter",
+      "Teahouse accommodation",
+      "Sagarmatha National Park permit",
+      "All trek meals"
+    ],
+    "exclusions": [
+      "International flights",
+      "Nepal visa",
+      "Travel/rescue insurance",
+      "Personal gear",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 110000
+      },
+      {
+        "label": "Sagarmatha National Park permit",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "annapurna-circuit",
+    "title": "Annapurna Circuit",
+    "category": "Trekking",
+    "loc": "Annapurna",
+    "days": 15,
+    "price": 88000,
+    "badge": "Popular",
+    "badgeClass": "badge-popular",
+    "tags": [
+      "TAAN Verified"
+    ],
+    "sky": "#0EA5A4",
+    "ground": "#0B2545",
+    "rating": 4,
+    "photo": "/images/packages/annapurna-circuit.jpg",
+    "summary": "A classic circuit crossing the Thorong La pass through diverse landscapes and cultures.",
+    "itinerary": [
+      {
+        "title": "Day 1-3 — Besisahar to Chame",
+        "text": "Drive and trek through lower Marsyangdi valley."
+      },
+      {
+        "title": "Day 4-7 — Chame to Manang",
+        "text": "Acclimatisation and scenic side hikes."
+      },
+      {
+        "title": "Day 8-9 — Manang to Thorong Phedi",
+        "text": "Approach to the pass."
+      },
+      {
+        "title": "Day 10 — Cross Thorong La to Muktinath",
+        "text": "The circuit's highest point at 5,416m."
+      },
+      {
+        "title": "Day 11-14 — Muktinath to Tatopani/Pokhara",
+        "text": "Descend through Mustang and Kali Gandaki gorge."
+      },
+      {
+        "title": "Day 15 — Pokhara to Kathmandu",
+        "text": "Return flight or drive."
+      }
+    ],
+    "inclusions": [
+      "Guide & porter",
+      "Teahouse accommodation",
+      "ACAP & TIMS permits",
+      "All trek meals",
+      "Ground transport"
+    ],
+    "exclusions": [
+      "International flights",
+      "Nepal visa",
+      "Travel insurance",
+      "Personal gear",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 88000
+      },
+      {
+        "label": "ACAP & TIMS permits",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "chitwan-jungle-safari",
+    "title": "Chitwan Jungle Safari",
+    "category": "Wildlife",
+    "loc": "Chitwan",
+    "days": 3,
+    "price": 12500,
+    "badge": "Family",
+    "badgeClass": "badge-cultural",
+    "tags": [
+      "Family Friendly"
+    ],
+    "sky": "#65A30D",
+    "ground": "#365314",
+    "rating": 5,
+    "photo": "/images/packages/chitwan-jungle-safari.jpg",
+    "summary": "A family-friendly jungle safari in Chitwan National Park, home to rhinos and tigers.",
+    "itinerary": [
+      {
+        "title": "Day 1 — Arrival & village walk",
+        "text": "Transfer to resort, Tharu village tour."
+      },
+      {
+        "title": "Day 2 — Jungle activities",
+        "text": "Jeep safari, canoe ride, elephant breeding centre."
+      },
+      {
+        "title": "Day 3 — Bird watching & departure",
+        "text": "Morning walk, transfer back."
+      }
+    ],
+    "inclusions": [
+      "Resort accommodation",
+      "All jungle activities",
+      "Park entry fees",
+      "Full board meals",
+      "Ground transport"
+    ],
+    "exclusions": [
+      "International/domestic flights",
+      "Nepal visa",
+      "Travel insurance",
+      "Personal expenses",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 12500
+      },
+      {
+        "label": "Park entry fees",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "jumla-cultural-tour",
+    "title": "Jumla Cultural Tour",
+    "category": "Cultural",
+    "loc": "Jumla, Karnali",
+    "days": 6,
+    "price": 32000,
+    "badge": "Karnali",
+    "badgeClass": "badge-cultural",
+    "tags": [
+      "Karnali Specialist"
+    ],
+    "sky": "#3A9BDC",
+    "ground": "#14315C",
+    "rating": 5,
+    "photo": "/images/packages/jumla-cultural-tour.jpg",
+    "summary": "Rice terraces, ancient Chandannath Temple and Karnali's timeless hill culture around Jumla bazaar.",
+    "itinerary": [
+      {
+        "title": "Day 1 — Fly to Jumla",
+        "text": "Scenic flight over the Karnali hills, orientation walk in Jumla bazaar."
+      },
+      {
+        "title": "Day 2 — Chandannath Temple & old town",
+        "text": "Visit Nepal's oldest Shiva temple and Jumla's historic quarter."
+      },
+      {
+        "title": "Day 3 — Tila Valley villages",
+        "text": "Walk through rice terraces and traditional Khas villages."
+      },
+      {
+        "title": "Day 4 — Local homestay & culture day",
+        "text": "Meet local families, traditional music and food."
+      },
+      {
+        "title": "Day 5 — Patarasi viewpoint hike",
+        "text": "Day hike for Himalayan views above the valley."
+      },
+      {
+        "title": "Day 6 — Fly back to Nepalgunj/Kathmandu",
+        "text": "Departure flight."
+      }
+    ],
+    "inclusions": [
+      "Domestic flights",
+      "Karnali-based local guide",
+      "Homestay/lodge accommodation",
+      "All meals",
+      "Cultural program"
+    ],
+    "exclusions": [
+      "International flights",
+      "Nepal visa",
+      "Travel insurance",
+      "Personal expenses",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 32000
+      },
+      {
+        "label": "Local permits",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "humla-adventure-trek",
+    "title": "Humla Adventure Trek",
+    "category": "Adventure",
+    "loc": "Humla, Karnali",
+    "days": 14,
+    "price": 105000,
+    "badge": "Karnali",
+    "badgeClass": "badge-adv",
+    "tags": [
+      "Karnali Specialist",
+      "High Altitude"
+    ],
+    "sky": "#5B6E93",
+    "ground": "#1D4079",
+    "rating": 5,
+    "photo": "/images/packages/humla-adventure-trek.jpg",
+    "summary": "Nepal's remotest trekking region — the ancient trade route toward Tibet through Simikot and the Limi Valley.",
+    "itinerary": [
+      {
+        "title": "Day 1-2 — Fly to Simikot",
+        "text": "Fly via Nepalgunj into Humla, trek briefing."
+      },
+      {
+        "title": "Day 3-6 — Simikot to Yalbang/Muchu",
+        "text": "Trek along the Karnali river gorge."
+      },
+      {
+        "title": "Day 7-9 — Limi Valley villages",
+        "text": "Tibetan-influenced villages of Halji, Til and Jang."
+      },
+      {
+        "title": "Day 10-13 — Return trek to Simikot",
+        "text": "Retrace route with rest day for weather buffer."
+      },
+      {
+        "title": "Day 14 — Fly back to Nepalgunj/Kathmandu",
+        "text": "Departure flight."
+      }
+    ],
+    "inclusions": [
+      "Restricted area permit",
+      "Domestic flights",
+      "Karnali-based guide & crew",
+      "Camping/lodge as available",
+      "All trek meals"
+    ],
+    "exclusions": [
+      "International flights",
+      "Nepal visa",
+      "Travel/rescue insurance",
+      "Personal gear",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 105000
+      },
+      {
+        "label": "Restricted area permit",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "pokhara-city-lakes",
+    "title": "Pokhara City & Lakes",
+    "category": "Cultural",
+    "loc": "Pokhara",
+    "days": 4,
+    "price": 15000,
+    "badge": "Cultural",
+    "badgeClass": "badge-cultural",
+    "tags": [
+      "Best Seller"
+    ],
+    "sky": "#7C3AED",
+    "ground": "#312E81",
+    "rating": 4,
+    "photo": "/images/packages/pokhara-city-lakes.jpg",
+    "summary": "Lakeside city tour covering Phewa Lake, caves, viewpoints and paragliding options.",
+    "itinerary": [
+      {
+        "title": "Day 1 — Arrival in Pokhara",
+        "text": "Lakeside check-in, sunset boating on Phewa Lake."
+      },
+      {
+        "title": "Day 2 — Sarangkot sunrise & caves",
+        "text": "Sunrise viewpoint, Davis Falls, Gupteshwor Cave."
+      },
+      {
+        "title": "Day 3 — Optional paragliding & World Peace Pagoda",
+        "text": "Adventure activities and viewpoint hike."
+      },
+      {
+        "title": "Day 4 — Departure",
+        "text": "Return to Kathmandu."
+      }
+    ],
+    "inclusions": [
+      "Hotel accommodation",
+      "Airport/city transfers",
+      "Sightseeing with guide",
+      "Breakfast daily",
+      "Entry fees"
+    ],
+    "exclusions": [
+      "International/domestic flights",
+      "Nepal visa",
+      "Paragliding (optional add-on)",
+      "Travel insurance",
+      "Tips"
+    ],
+    "priceBreakdown": [
+      {
+        "label": "Package cost (per person)",
+        "amount": 15000
+      },
+      {
+        "label": "Entry fees",
+        "amount": 0
+      }
+    ]
+  }
+]
