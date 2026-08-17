@@ -7,6 +7,7 @@ import bookingsRoutes from "./routes/bookings.js";
 import inquiriesRoutes from "./routes/inquiries.js";
 import packagesRoutes from "./routes/packages.js";
 import offersRoutes from "./routes/offers.js";
+import { seedDemoUserIfNeeded } from "./utils/seedDemoUser.js";
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -27,6 +28,8 @@ app.use((err, _req, res, _next) => {
   console.error(err);
   res.status(500).json({ error: "Something went wrong." });
 });
+
+await seedDemoUserIfNeeded();
 
 app.listen(PORT, () => {
   console.log(`Civil Alliance backend listening on http://localhost:${PORT}`);

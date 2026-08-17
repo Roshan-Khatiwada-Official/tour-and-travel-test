@@ -16,6 +16,7 @@ import inquiriesRoutes from "./backend/routes/inquiries.js";
 import packagesRoutes from "./backend/routes/packages.js";
 import offersRoutes from "./backend/routes/offers.js";
 
+import { seedDemoUserIfNeeded } from "./backend/utils/seedDemoUser.js";
 import { seedDefaultAdminIfNeeded } from "./admin-backend/utils/seedAdmin.js";
 import adminAuthRoutes from "./admin-backend/routes/adminAuth.js";
 import adminBookingsRoutes from "./admin-backend/routes/bookings.js";
@@ -56,6 +57,7 @@ app.use((err, _req, res, _next) => {
   res.status(500).json({ error: "Something went wrong." });
 });
 
+await seedDemoUserIfNeeded();
 await seedDefaultAdminIfNeeded();
 
 app.listen(PORT, () => {
